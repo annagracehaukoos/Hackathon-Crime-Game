@@ -19,11 +19,11 @@ def landing():
         <title>Audio Agency</title>
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="bg-slate-900 text-white p-8 max-w-md mx-auto min-h-screen flex flex-col justify-center" 
+    <body class="bg-slate-900 text-white p-8 max-w-md mx-auto min-h-screen flex flex-col justify-center items-center text-center bg-cover bg-center" 
         style="background-image: url('https://as2.ftcdn.net/v2/jpg/02/39/63/87/1000_F_239638729_L2e1s3yVG3JkFpMrFH1wut5Fl4SGY6Rk.jpg'); background-size: cover;">
-        <h1 class="text-2xl font-bold mb-1">EchoCrime</h1>
-        <p class="mb-4 text-slate-300">Listen Closely. Solve the Case.</p>
-        <a href="/game" class="block w-full p-3 mb-4 bg-red-600 rounded hover:bg-red-700 text-white font-bold rounded shadow-lg tracking-wider">
+        <h1 class="text-4xl font-extrabold mb-2 text-white tracking-wider">EchoCrime</h1>
+        <p class="mb-8 text-white">Listen Closely. Solve the Case.</p>
+        <a href="/game" class="block w-full py-4 px-6 mb-4 bg-red-600 hover:bg-red-700 text-white font-bold rounded shadow-lg tracking-wider text-center transition">
             Click to Start
         </a>
     </body>
